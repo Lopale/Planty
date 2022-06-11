@@ -1,0 +1,343 @@
+/*
+Theme Name: Beans Child
+Theme URI: https://www.getbeans.io/themes/beans/
+Template: tm-beans
+Author: Beans
+Author URI: https://www.getbeans.io
+Version: 1.0.1654865342
+Updated: 2022-06-10 14:49:02
+
+*/
+
+/* Police */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap');
+
+/* Général */
+
+.tm-site * {
+	font-family: 'Syne', sans-serif !important;
+}
+
+a, a:hover,
+.uk-form input.wpcf7-submit,
+.uk-form input.wpcf7-submit:hover {
+	-webkit-transition: all 500ms ease-in;
+	-moz-transition: all 500ms ease-in;
+	-ms-transition: all 500ms ease-in;
+	-o-transition: all 500ms ease-in;
+	transition: all 500ms ease-in;
+}
+
+.uk-form input.wpcf7-submit {
+	background-color: #E0B9B4;
+	color: #FFF;
+	border-radius: 5px;
+	width: 200px;
+	height: 55px;
+	border: none;
+	margin: 0 20%;
+}
+
+.uk-form input.wpcf7-submit:hover{
+	background-color: #C02E44;
+}
+
+.wpcf7-spinner {
+	position: absolute;
+}
+
+
+
+/* Header */
+
+/* Logo */
+.tm-logo {
+	width: 190px;
+	margin: 40px;
+}
+
+/* Navigation */
+
+.uk-block, .uk-container,.uk-panel-box {
+	padding: 0;
+}
+.uk-margin-small-top {
+	margin-top: 0 !important;
+}
+.uk-navbar-nav > li > a {
+	font-size: 16px;
+	padding: 30px 60px 30px 60px;
+	height: auto;
+	line-height: auto;
+}
+.uk-navbar-nav > li > a:hover,
+.uk-navbar-nav > li > a[href*="commander"]:hover {
+	background-color: #C02E44;
+	color: #FFF;
+}
+
+
+.uk-navbar-nav > li > a[href*="commander"] {
+	background-color: #DC9F96;
+	color: #FFF;
+}
+
+.tm-header {
+	border: none;
+}
+
+/* Fil d'ariane */
+.uk-breadcrumb{
+	display: none;
+}
+
+/* Titre  */
+
+h1.uk-article-title {
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 38px;
+	line-height: 45px;
+}
+
+/* Page d'accueil */
+body.home h1 {
+	display: none;
+}
+
+.titleBottle {
+	font-size: 48px !important;
+	height: 100%;
+	background: none;
+	line-height: 46px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.bottleImg {
+	background: #ECE2DA url(img/bkg-bottle.png) no-repeat center center;
+	background-size: 30%;
+	border-bottom-left-radius: 50% 50px;
+	border-bottom-right-radius: 50% 50px;
+}
+
+.rose {	
+	background-color: #ECE2DA;
+	margin: 0;
+	padding: 10px;
+}
+
+h2.rose{
+	padding-top: 50px;
+}
+.arrondi {
+	border-bottom-left-radius: 50% 50px;
+	border-bottom-right-radius: 50% 50px;
+	margin-top: 0;
+}
+
+.weight {
+	font-weight: 800;
+	margin-bottom: 0;
+	padding-bottom: 20px;	
+}
+
+body.home .mygalerie {
+	padding:50px 25%;
+}
+
+body.home .mygalerie figcaption {
+		font-weight: 800;
+		font-size: 48px !important;
+		height: 100%;line-height: 58px;
+		background: none !important;
+}
+
+.maxWidth {
+	width: 100%;
+	max-width: 1220px;
+	margin: 0 auto;
+}
+
+/* Rencontrer */
+
+
+.page-id-17 h1.uk-article-title {
+	color: #D2776A;
+	padding-top: 185px;
+	padding-bottom: 20px;
+	background:  #ECE2DA url(img/bkg-fleur.png) no-repeat 20%	;
+	margin-bottom: 0;
+}
+
+.maxWidth figcaption, 
+.maxWidth p {
+	text-align: center;
+	/*font-weight: 700;*/
+	font-size: 20px;
+}
+
+
+#wpcf7-f20-p17-o1.wpcf7 {
+    display: flex;
+    justify-content: center;
+}
+
+.page-id-17 .wpcf7::before{
+	display: block;
+    height: 160px;
+    width: 150px;
+    background: url(img/bkg-rencontre.png) no-repeat;
+    content: " ";
+    position: absolute;
+    bottom: 75px;
+    margin-left: -340px;
+}
+
+.page-id-17 footer.uk-block {
+	background-color: #ECE2DA;
+}
+
+/* Commander */
+.page-id-11 .tm-main .uk-container,
+.page-id-11 .uk-panel-box{
+	background-color: #3B8E46;
+}
+
+.page-id-11 h1{
+	color: #FFF;
+	padding: 70px;
+}
+.page-id-11 h2{
+	color: #FFF;
+	margin: 0 auto;
+	max-width: 860px;
+	padding: 40px 0;
+}
+
+.cmd, hr {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 860px;
+}
+
+.cmd label{
+	color: #FFF;
+}
+
+.cmd .product	 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cmd .product span:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.cmd .product span.fraise:before {
+	background-image: url("../../uploads/2022/06/Group-12.jpg");
+}
+.cmd .product span.pamplemousse:before {
+	background-image: url("../../uploads/2022/06/Group-13.jpg");
+}
+.cmd .product span.citron:before {
+	background-image: url("../../uploads/2022/06/Group-14.jpg");
+}
+.cmd .product span.framboise:before {
+	background-image: url("../../uploads/2022/06/Group-15.jpg");
+}
+
+
+.double {
+	display: flex;
+	justify-content: space-between;
+}
+
+.double div {
+	/*width: 50%;*/
+	position: relative;
+}
+
+.double div:first-of-type:after {
+    /* width: 50%; */
+    content: " ";
+    display: block;
+    height: 300px;
+    width: 2px;
+    background-color: #FFF;
+    position: absolute;
+    top: 40px;
+    right: -33%;
+}
+.btn{
+
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 60px 0;
+}
+.page-id-11 footer.uk-block {
+	background: none;
+	padding: 0;
+}
+
+/* footer */
+footer.uk-block {
+	background-image: url(img/bkg-footer.png);
+	background-repeat: repeat-x;
+	padding-top: 130px;
+	border: 0;
+}
+
+.myFooter {
+	background-color: #FFF;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.myFooter a {
+	color: #000;
+}
+
+/* Media query */
+@media (min-width: 1440px){
+	.uk-container {
+	    max-width: 100%;
+	}	
+}
+
+
+
+@media (max-width: 700px){
+	.titleBottle{
+		font-size: 20px !important;
+	}
+
+	body.home .mygalerie{
+		padding: 0;
+    flex-direction: column;
+	}
+
+	.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
+	    width: calc(100% - var(--wp--style--unstable-gallery-gap, 16px)/2);
+	}
+	body.home .mygalerie figcaption {
+	    font-size: 40px !important;
+	}
+	.double,.cmd .product {
+		flex-direction: column;
+	}
+
+	.double div:first-of-type:after {
+		display: none;
+	}
+}
